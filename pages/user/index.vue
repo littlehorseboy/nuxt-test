@@ -1,5 +1,5 @@
 <template>
-  <nuxt-link to="/user/one">
+  <nuxt-link to="./user/one">
     test
   </nuxt-link>
 </template>

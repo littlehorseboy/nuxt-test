@@ -3,7 +3,7 @@
     <div>
       <logo />
 
-      <nuxt-link to="/user">
+      <nuxt-link to="./user">
         user
       </nuxt-link>
     </div>
