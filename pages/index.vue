@@ -1,22 +1,13 @@
 <template>
   <div class="container">
-    <div>
-      <logo />
-
-      <nuxt-link to="./user">
-        user
-      </nuxt-link>
-    </div>
+    <nuxt-link to="/user">
+      user
+    </nuxt-link>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
-
 export default {
-  components: {
-    Logo
-  },
   head () {
     return {
       title: this.title,
